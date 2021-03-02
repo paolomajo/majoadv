@@ -159,11 +159,10 @@ video {
     padding-bottom: 0;
   }
    #avatar {
-    float: none;
+    float: right;
     position: relative;
     right: 5px;
-    /* bottom: 55px; */
-    top: 55px;
+    bottom: 55px; 
 }
   .masthead .masthead-bg {
     min-height: 0;
@@ -212,6 +211,12 @@ video {
   width: 4rem;
 }
 @media (max-width: 768px){
+ #avatar {
+    float: none;
+    position: relative;
+    right: 5px;
+    bottom: 55px; 
+}
 .masthead {
     ma-height: 200px;
     min-height: 0;
