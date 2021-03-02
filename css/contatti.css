@@ -64,6 +64,13 @@ video {
     #right:0;
     
   }
+  #avatar {
+    float: right;
+    position: relative;
+    right: 55px;
+    /* bottom: 55px; */
+    top: -555px;
+}
   #fil a:hover{
     background: url("io.jpg") no-repeat center center scroll;
     
@@ -151,6 +158,13 @@ video {
     width: 48rem;
     padding-bottom: 0;
   }
+   #avatar {
+    float: none;
+    position: relative;
+    right: 5px;
+    /* bottom: 55px; */
+    top: 55px;
+}
   .masthead .masthead-bg {
     min-height: 0;
     transform: skewX(-8deg);
