@@ -8,7 +8,12 @@
  a {color: #fff;}
  a:hover {color: #fff;}
  video{position:fixed;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;transform:translateX(-50%) translateY(-50%);z-index:0}
- @media (pointer:coarse) and (hover:none){body{background:url(../img/bg-mobile-fallback.jpg) #e1e5ea no-repeat center center scroll;background-size:cover}body video{display:none}}
+@media (max-width: 666px) {
+.masthead {
+  max-width:333px;
+  margin:auto;
+}}
+@media (pointer:coarse) and (hover:none){body{background:url(../img/bg-mobile-fallback.jpg) #e1e5ea no-repeat center center scroll;background-size:cover}body video{display:none}}
  .overlay{position:absolute;top:0;left:0;height:100%;width:100%;background-color:#cd9557;opacity:0.1;z-index:1}
  .masthead{position:relative;overflow:hidden;padding-bottom:3rem;z-index:2}
  .masthead .masthead-bg{position:absolute;top:0;bottom:0;right:0;left:0;width:100%;min-height:35rem;height:100%;background-color:#95e5f7a3;transform:skewY(4deg);transform-origin:bottom right}
