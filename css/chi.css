@@ -7,7 +7,18 @@
 .masthead {
   max-width:333px;
   margin:auto;
-}}
+}
+#avatar{
+    position:absolute;;
+    top:11%;
+    right:0;
+  }
+  .nat1{
+    position:absolute;;
+    top:66%;
+    right:0;
+    
+  }}
 html {
   height: 100%;
 }
