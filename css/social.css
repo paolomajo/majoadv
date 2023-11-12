@@ -3,8 +3,14 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-coming-soon/blob/master/LICENSE)
  */
-
-html {
+@media (max-width: 666px) {
+.masthead {
+  max-width:333px;
+  margin:auto;
+}
+  
+  }
+  html {
   height: 100%;
 }
 
